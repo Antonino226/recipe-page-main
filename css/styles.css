@@ -1,0 +1,209 @@
+:root {
+    /* Primary */
+    --nutmeg: hsl(14, 45%, 36%);
+    --darkRaspberry: hsl(332, 51%, 32%);
+
+    /* Neutral */
+    --white: hsl(0, 0%, 100%);
+    --roseWhite: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --lightGrey: hsl(30, 18%, 87%);
+    --wengeBrown: hsl(30, 10%, 34%);
+    --darkCharcoal: hsl(24, 5%, 18%);
+}
+
+.img{
+    width: -webkit-fill-available;
+    border-radius: 15px;
+}
+
+.container{
+    padding: 30px;
+}
+
+h1{
+    font-family: Outfit-Black,auto;
+    font-weight: 800;
+    color: var(--darkCharcoal);
+}
+
+ul{
+    padding-left: 10px;
+}
+
+li{
+    color: var(--wengeBrown);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Outfit-ExtraBold,sans-serif;
+    margin: 10px;
+    padding-left: 15px;
+}
+
+span{
+    font-weight: 600;
+}
+
+p{
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--nutmeg);
+    font-family: Outfit-Extrabold,serif;
+}
+
+.text{
+    color: var(--wengeBrown);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Outfit-ExtraBold,sans-serif;
+    margin-bottom: 35px;
+}
+
+td{
+    color: var(--wengeBrown);
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid var(--lightGrey);
+    font-family: Outfit-ExtraBold,sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+}
+
+.tdBold{
+    color: var(--nutmeg);
+    font-weight: 600;
+}
+
+ol ::marker{
+    color: var(--nutmeg);
+    font-weight: 600;
+}
+
+table, th, td {
+    width: -webkit-fill-available;
+}
+
+.box{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+.line{
+    border: 1px solid var(--lightGrey);
+    border: 0.1px solid var(--lightGrey);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 375px) {
+    body {
+        background-color: var(--lightGrey); /* Puoi inserire altre regole qui */
+    }
+
+    .container{
+        padding:30px;
+    }
+
+    .card-content{
+        padding: 0px;
+    }
+
+    .card{
+        width: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--white);
+        border-radius: 15px;
+        margin-top: 12vh;
+    }
+}
+@media screen and (max-width: 375px) {
+    
+    .body{
+        margin:0px;
+    }
+
+    .img {
+        width: -webkit-fill-available;
+        border-radius: 0px;
+    }
+
+    .container{
+        padding: 0px;
+    }
+
+    .card-content{
+        padding-top: 5px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+
+    .card{
+        background-color: var(--white);
+        border-radius: 15px;
+    }
+}
+
+@font-face {
+    font-family: 'Outfit-VariableFont.ttf';
+    src: url("assets\fonts\outfit\Outfit-VariableFont.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'YoungSerif-Regular.ttf';
+    src: url("assets\fonts\young-serif\static\YoungSerif-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-Black.ttf';
+    src: url("assets\fonts\young-serif\static\Outfit-Black.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-Bold.ttf';
+    src: url("assets\fonts\young-serif\static\Outfit-Bold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-ExtraBold.ttf';
+    src: url("assets\fonts\young-serif\static\Outfit-ExtraBold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-ExtraLight.ttf';
+    src: url("assets\fonts\young-serif\static\Outfit-ExtraLight.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-Light.ttf';
+    src: url("assets\fonts\young-serif\static\Outfit-Light.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-Medium.ttf';
+    src: url("assets\fonts\young-serif\static\Outfit-Medium.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-Regular.ttf';
+    src: url("assets\fonts\young-serif\static\Outfit-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-SemiBold.ttf';
+    src: url("assets\fonts\young-serif\static\Outfit-SemiBold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-Thin.ttf';
+    src: url("assets\fonts\young-serif\static\Outfit-Thin.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-VariableFont.ttf';
+    src: url("assets\fonts\young-serif\static\Outfit-Thin_wght.ttf") format('ttf');
+}
